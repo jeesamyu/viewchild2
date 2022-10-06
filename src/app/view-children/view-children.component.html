@@ -1,0 +1,26 @@
+<h1 #hello>adasdasd</h1>
+<input #input>
+    <button type="button" (click)="change()">change</button>
+<button (click)="remove()">remove</button>
+
+<h5>ElementRef</h5>
+
+<div #div></div>
+
+<div #div1></div>
+<div #div2></div>
+<div #div3></div>
+
+<button (click)="beforediv1()">div 1</button>
+<button (click)="beforediv2()">div 2</button>
+<button (click)="beforediv3()">div 3</button>
+
+<button class="btn btn-primary" (click)="login()" >click</button>
+
+<h1 *ngIf="log">hello</h1>
+
+<div *ngIf="log;else not">dsff</div>
+<div [ngStyle]=" {'color': text ? 'green' : 'red' } " [ngClass]="text==='offline'? 'back':'back2' " >get background color</div>
+<ng-template #not>user not created</ng-template>
+<ng-template #yes>success of create</ng-template>
+

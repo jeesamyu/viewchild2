@@ -1,0 +1,23 @@
+.blackborder{
+    background-color: green;
+}
+
+h5{
+    background:#f2f2f2 ;
+    border-bottom:1px solid #b8e08d ;
+    color: #3871b8;
+    width: fit-content;
+    cursor: pointer;
+    transition-duration:0.4s;
+}
+h5:hover{
+    color:black;
+    border-bottom:1px solid rgb(248, 114, 114) ;
+    background-color: rgb(242, 227, 227);
+}
+.back{
+    background: #f9dddd;
+}
+.back2{
+    background-color: aqua;
+}

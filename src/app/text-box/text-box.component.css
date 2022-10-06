@@ -1,0 +1,16 @@
+#outerBox{
+    border:2px solid red;
+    padding:10px;
+
+}
+#innerBox{
+    border:2px solid green;
+    padding:10px;
+}
+body{
+    border: 2px solid black;
+}
+button{
+    width:200px;
+    margin:10px;
+}
